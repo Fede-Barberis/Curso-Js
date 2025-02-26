@@ -1,10 +1,6 @@
-function factorial(a) {
-    factorial = 1
+export default class myClass {
 
-    for(let i= a; i > 0; i--) {
-        factorial *= i
+    func(){
+        console.log("mi clase")
     }
-    return factorial
 }
-
-console.log(factorial(8))

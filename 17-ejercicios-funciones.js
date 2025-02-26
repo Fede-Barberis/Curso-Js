@@ -163,4 +163,4 @@ function factorial(a) {
     return factorial
 }
 
-console.log(factorial(7))
+console.log(factorial(8))
