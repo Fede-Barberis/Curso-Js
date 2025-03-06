@@ -1,0 +1,1 @@
+const arrayFromMap = Array.from(map)

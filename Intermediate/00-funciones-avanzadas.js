@@ -1,6 +1,6 @@
 // Funciones avanzadas
 
-//! Ciudadanos de primera clase
+//! Ciudadanos de primera clase 
 
 //* le asignamos a una constante una funcion
 const saludo = function (name) {
@@ -27,6 +27,8 @@ saludo2("vito")
 //! Arrows functions avanzadas
 
 //* - Retorno implicito
+// El retorno implícito ocurre cuando una función devuelve un valor sin necesidad de usar la palabra clave return.
+// Esto sucede en funciones de flecha (=>) de una sola línea:
 const multiplicacion = (a, b) => a * b
 console.log(multiplicacion(2,2))
 
@@ -48,7 +50,7 @@ manejador.arrowSaludo();
 
 
 //! IIFE (Expresion de Funcion Invocada Inmediatamente)
-//? forma de obligar a ejecutar un codigo en concreto y no contamina el ambito global.
+//? forma que obligar a ejecutar un codigo en concreto y no contamina el ambito global.
 //? se ejecutan en le momento que se definan.
 
 //* - IIFE clásico
