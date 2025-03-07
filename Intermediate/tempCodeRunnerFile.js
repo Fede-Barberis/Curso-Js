@@ -1,6 +1,12 @@
-let arrayAnidado = [1, [2, [3, [4]]]]
-flatArray = arrayAnidado.flat(1) // Segun la profundidia que le demos va a desanidar el array
-flatArray = arrayAnidado.flat(2)
-flatArray = arrayAnidado.flat(3)
-flatArray = arrayAnidado.flat(4)
-console.log(flatArray);
+class Dni {
+    constructor(dni) {
+        if(dni.instance) {
+            return dni.instance
+        }
+        this.dni = dni
+        Dni.instance = this
+    }
+}
+
+const persona = new Dni("46539511")
+console.log(persona.dni);
